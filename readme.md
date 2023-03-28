@@ -1,7 +1,8 @@
 # Envelope Detector net: hyperparams tuner and wights interpretation
 
-This repository is Tensorflow reimplementation of small and interpretable deep neural network Envelope Detector-net(ED-net) that is used in brain decoding experiments, initially developed in \cite{petrosyan2021} for motor BCI and studied in depth in \cite{petrosyan2022}.
+This repository is Tensorflow reimplementation of small and interpretable deep neural network Envelope Detector-net(ED-net) that is used in brain decoding experiments, initially developed in [Petrosyan et al. 2021](#petrosyan2021) for motor BCI and studied in depth in [Petrosyan et al. 2022](#petrosyan2022).
 Here implemented using Keras tuner and contains functions for weights interpretation. 
+
 
 
 ## Dependencies
@@ -27,7 +28,7 @@ Next select params to tune and set the boundaries by modifying:   _param_min | m
  
 
 ## References
-
+<a id="petrosyan2021">[1]
 @article{petrosyan2021,
   title={Decoding and interpreting cortical signals with a compact convolutional neural network},
   author={Petrosyan, Artur and Sinkin, Mikhail and Lebedev, Mikhail and Ossadtchi, Alexei},
@@ -38,7 +39,9 @@ Next select params to tune and set the boundaries by modifying:   _param_min | m
   year={2021},
   publisher={IOP Publishing}
 }
-
+ </a> 
+ <br/>
+<a id="petrosyan2022">[2]
 @article{petrosyan2022,
 doi = {10.1088/1741-2552/aca1e1},
 url = {https://dx.doi.org/10.1088/1741-2552/aca1e1},
@@ -52,3 +55,4 @@ author = {Artur Petrosyan and Alexey Voskoboinikov and Dmitrii Sukhinin and Anna
 title = {Speech decoding from a small set of spatially segregated minimally invasive intracranial EEG electrodes with a compact and interpretable neural network},
 journal = {Journal of Neural Engineering}
 }
+ </a> 
