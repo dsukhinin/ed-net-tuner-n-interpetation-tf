@@ -1,0 +1,43 @@
+{
+    "data_dir" : "",
+    "x_file" : "x.npy",
+    "y_file" : "y.npy",
+    "val_split" : 0.85,
+    
+    "n_classes" : 3, 
+    "n_channels": 28,
+    "n_points" : 500,
+    
+    "batch_size" : 32,
+    "n_epoch" : 50,
+    
+    "learning_rate" : 0.0001,
+    "weight_decay" : 0.00001,
+    
+    "n_trials": 20,
+    "n_runs_per_trial" : 3,
+    
+    "tuner_directory": "hyper_tuner",
+    "project_name": "hyper_ed_net",
+    
+    "tune_filtering_size" : false,
+    "filtering_min": 10,
+    "filtering_max": 40,
+    "filtering_step": 5,
+    
+    "tune_envelope_size" : false,
+    "envelope_min": 10,
+    "envelope_max": 40,
+    "envelope_step": 5,
+    
+    
+    "tune_n_branches" : true,
+    "branches_min": 32,
+    "branches_max": 96,
+    "branches_step": 8,
+    
+    "tune_n_lstm" : true,
+    "lstm_units_min": 16,
+    "lstm_units_max": 96,
+    "lstm_units_step": 8    
+}
