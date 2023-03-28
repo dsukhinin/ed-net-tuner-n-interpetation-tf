@@ -1,7 +1,7 @@
 # Envelope Detector net: hyperparams tuner and wights interpretation
 
 This repository is Tensorflow reimplementation of small and interpretable deep neural network Envelope Detector-net(ED-net) that is used in brain decoding experiments, initially developed in [Petrosyan et al. 2021](#petrosyan2021) for motor BCI and studied in depth in [Petrosyan et al. 2022](#petrosyan2022).
-Here implemented using Keras tuner and contains functions for weights interpretation. 
+Here wrapped inside Keras tuner to search for 4 main parameters and aaditionaly contains functions for weights interpretation. 
 
 
 
